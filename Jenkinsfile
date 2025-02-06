@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('GIT') {
             steps {
-                git branch: 'master',
+                git branch: 'main',
                 url: 'https://github.com/nadra-wertani/ateliergit.git'
             }
         }
