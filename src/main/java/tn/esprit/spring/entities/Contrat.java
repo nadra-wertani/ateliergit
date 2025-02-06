@@ -13,7 +13,6 @@ import javax.persistence.TemporalType;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-@Entity
 public class Contrat implements Serializable {
 	
 
