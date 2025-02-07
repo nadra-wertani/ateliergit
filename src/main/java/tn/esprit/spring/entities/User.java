@@ -29,7 +29,7 @@ public class User implements Serializable {
 	
 	private String lastName;
 	private String email;
-
+	private String cadre;
 	public String getEmail() {
 		return email;
 	}
