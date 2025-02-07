@@ -28,7 +28,19 @@ public class User implements Serializable {
 	private String firstName; 
 	
 	private String lastName;
+
 	private  String phone;
+
+	private String email;
+	private String cadre;
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 
 	@Temporal(TemporalType.DATE)
 	private Date dateNaissance;
