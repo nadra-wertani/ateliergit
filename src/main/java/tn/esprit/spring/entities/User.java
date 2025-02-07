@@ -28,7 +28,16 @@ public class User implements Serializable {
 	private String firstName; 
 	
 	private String lastName;
-	
+	private String phoneNumber;
+
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+
 	@Temporal(TemporalType.DATE)
 	private Date dateNaissance;
 	
