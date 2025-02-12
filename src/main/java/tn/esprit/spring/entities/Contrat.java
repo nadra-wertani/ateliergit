@@ -19,6 +19,7 @@ public class Contrat implements Serializable {
 	/**
 	 * 
 	 */
+	//emna atlier git
 	private static final long serialVersionUID = 1L;
 
 	@Id
