@@ -19,5 +19,10 @@ pipeline {
                 sh 'mvn clean compile'
             }
         }
+        stage('SonarQube Analysis') {
+            steps {
+                sh 'mvn sonar:sonar -Dsonar.login=admin -Dsonar.password=Nadra/200000 -Dmaven.test.skip=true'
+            }
+        }
     }
 }
